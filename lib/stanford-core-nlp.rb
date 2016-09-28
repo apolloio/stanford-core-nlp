@@ -175,6 +175,7 @@ module StanfordCoreNLP
     # Error initializing binder 1 at edu.stanford.
     # nlp.time.Options.<init>(Options.java:88)
     properties['sutime.binders'] = '0'
+    properties['ner.useSUTime'] = 'false'
 
     # Manually include SUTime models.
     if annotators.include?(:ner)

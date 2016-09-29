@@ -1,11 +1,9 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path('../lib', __FILE__)
 
-require 'stanford-core-nlp'
-
 Gem::Specification.new do |s|
   s.name        = 'stanford-core-nlp'
-  s.version     = StanfordCoreNLP::VERSION
+  s.version     = '0.5.3'
   s.authors     = ['Louis Mullie']
   s.email       = ['louis.mullie@gmail.com']
   s.homepage    = 'https://github.com/louismullie/stanford-core-nlp'
